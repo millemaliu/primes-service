@@ -31,6 +31,6 @@ jobs:
         run: | 
           docker login --username millemaliu --password ${{secrets.ACCESS_TOKEN}} ghcr.io
           docker build -t ghcr.io/millemaliu/primes-service:latest --file Dockerfile .
-          docker push ghcr.io/millemalio/primes-service:latest
+          docker push ghcr.io/millemaliu/primes-service:latest
 
       
